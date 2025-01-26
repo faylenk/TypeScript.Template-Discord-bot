@@ -28,7 +28,7 @@ CLIENT_ID=(YOUR CLIENT ID HERE)
 await interaction.reply({ content: '...', ephemeral: true });
 
 // The new way is
-const { Client, MessageFlags } = require('discord.js');
+import { MessageFlags } from 'discord.js';
 
 await interaction.reply({ content: '...', flags: MessageFlags.Ephemeral });
 
